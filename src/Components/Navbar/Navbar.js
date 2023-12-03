@@ -5,17 +5,25 @@ const Navbar = ({ }) => {
    return (
       <nav className="Navbar">
          <div className="Links">
+            <a href='#tldr' className="About_Button">
+               <span></span>
+               <p><b>00.</b><b>TL;DR</b></p>
+            </a>
+            <a href='#About_Main' className="About_Button">
+               <span></span>
+               <p><b>01.</b><b>About</b></p>
+            </a>
             <a href='#Projects_Main' className="Projects_Button">
                <span></span>
-               <p>Projects</p>
+               <p><b>02.</b><b>Projects</b></p>
             </a>
-            <a href='Contacts_Main' className="Contact_Button">
+            <a href='#Experience_Main' className="Experience_Button">
                <span></span>
-               <p>Contact</p>
+               <p><b>03.</b><b>Experience</b></p>
             </a>
-            <a href='About_Main' className="About_Button">
+            <a href='#Contacts_Main' className="Contact_Button">
                <span></span>
-               <p>About</p>
+               <p><b>04.</b><b>Contact</b></p>
             </a>
          </div>
          <button className="Home_Button">

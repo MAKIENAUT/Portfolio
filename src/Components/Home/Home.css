@@ -1,3 +1,4 @@
+
 .HomeMain {
    width: 85%;
    height: 100%;
@@ -6,7 +7,7 @@
 
    display: flex;
    align-items: start;
-   justify-content: center;
+   justify-content: space-between;
 }
 
 .Main_Left {
@@ -19,11 +20,6 @@
    justify-content: start;
 }
 
-.Main_Right {
-   width: 60%;
-
-}
-
 .Hero_Title {
    width: 100%;
 
@@ -33,17 +29,13 @@
    justify-content: center;
 }
 
-.Hero_Sub{
+.Hero_Sub {
    color: white;
    font-size: 2.5rem;
    transition: all 0.5s;
    letter-spacing: 0.3rem;
    font-family: 'Nova Square', sans-serif;
-   filter: drop-shadow(black 0px 0px 5px);   
-   
-   /* background: -webkit-linear-gradient(wheat 30%, rgb(22, 124, 175) 70%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; */
+   filter: drop-shadow(black 0px 0px 5px);
 }
 
 .Attention {
@@ -64,29 +56,267 @@
    filter: drop-shadow(black 0px 0px 20px);
 }
 
-.Attention_Left {
-   /* background: linear-gradient(to right, rgb(0, 128, 255), white 60%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; */
-}
-
-.Attention_Right {
-   /* background: linear-gradient(to left, rgb(0, 128, 255), white 90%);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent; */
-}
-
 .Attention_Main {
    color: white;
    cursor: pointer;
    font-size: 8rem;
    transition: all 0.5s;
-   letter-spacing: 0.7rem;
-   font-family: 'Cinzel', serif;
-   filter: drop-shadow(black 0px 0px 20px);   
+   letter-spacing: 0.6rem;
+   font-family: 'Nova Square', sans-serif;
+   filter: drop-shadow(black 0px 0px 20px);
    transition: all 0.5s;
-   text-shadow:-2px -2px 0 cyan, 2px 2px 0 magenta;
-   /* background: linear-gradient(to right, #f3af39, #FBF5B7, #f3af39);
-   -webkit-text-fill-color: transparent;
-   -webkit-background-clip: text; */
+   text-shadow: -2px -2px 0 cyan, 2px 2px 0 magenta;
+
+}
+
+.Main_Right {
+   height: 100%;
+   padding: 10px;
+   width: calc(55% - 5px);
+   box-sizing: border-box;
+
+   gap: 50px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: start;
+
+   position: relative;
+   overflow-y: auto;
+}
+
+
+.Web_Cut_Top {
+   width: 100%;
+   height: 340px;
+   color: white;
+   border-left: 1px solid;
+   box-sizing: border-box;
+   border-image:
+      linear-gradient(to bottom,
+         white 20%,
+         rgb(0, 157, 255),
+         white,
+         lightgreen,
+         white,
+         fuchsia,
+         rgb(255, 255, 255, 0)) 1;
+   top: 8%;
+   left: calc(45% + 19px);
+   position: fixed;
+   z-index: 0;
+}
+
+.Content_Article,
+.About,
+.Projects,
+.Experience {
+   z-index: 1;
+   width: 100%;
+   padding: 20px;
+   filter: drop-shadow(black 0px 0px 5px);
+}
+
+.Intro,
+.Name,
+.Subtitle,
+.Heading_Title,
+.About_Description {
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   filter: drop-shadow(black 0px 0px 5px);
+}
+
+.Name {
+   color: gold;
+   font-size: 4rem;
+   transition: all 0.4s;
+}
+
+.Name:hover {
+   color: white;
+   font-size: 4.1rem;
+   transition: all 0.4s;
+   animation: glitch 725ms infinite;
+}
+
+.Subtitle {
+   width: 80%;
+   cursor: text;
+}
+
+.Heading {
+   width: 100%;
+   position: relative;
+
+   gap: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.Heading b {
+   color: gold;
+   font-family: 'Poppins', sans-serif;
+}
+
+.Heading_Title {
+   font-size: 2.5rem;
+}
+
+.Heading span {
+   width: 60%;
+   height: 1px;
+   display: flex;
+   transition: all 0.3s;
+   background-color: rgb(63, 63, 63);
+   transform: translateY(-50%);
+
+   position: absolute;
+   top: 50%;
+   right: 0;
+}
+
+.About_Description {
+   width: 100%;
+
+   gap: 30px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: start;
+}
+
+.About_Description p {
+   width: 100%;
+   text-indent: 5%;
+   border-radius: 5px;
+   padding: 10px 30px 10px 30px;
+   background-color: rgb(25, 25, 25, 0.4);
+}
+
+.About_Picture p a {
+   color: gold;
+   transition: all 0.3s;
+   text-decoration: none;
+}
+.About_Picture p a:hover {
+   transition: all 0.3s;
+   color: wheat;
+   text-decoration: underline;
+}
+
+.About_Picture {
+   width: 100%;
+   gap: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.About_Picture p {
+   width: 70%;
+}
+
+.About_Image {
+   width: 31%;
+   aspect-ratio: 1/1;
+   border-radius: 3px;
+   background-size: cover;
+   background-image: url('/public/makie.jpg');
+   z-index: 1;
+   position: relative;
+   transition: transform 0.3s ease-in-out;
+   /* Added transition effect */
+}
+
+.Image_Frame,
+.Image_Frame2 {
+   z-index: -1;
+   width: 190px;
+   aspect-ratio: 1/1;
+   border-radius: 3px;
+   background-color: transparent;
+   position: absolute;
+   transition: all 0.3s ease-in-out;
+   /* Added transition effect */
+}
+
+.Image_Frame {
+   border: 2px solid #fc00ff;
+   right: 0;
+   bottom: 10px;
+}
+
+.Image_Frame2 {
+   border: 2px solid #00fffc;
+   right: 0px;
+   bottom: 10px;
+}
+
+.About_Picture:hover .Image_Frame {
+   right: -15px;
+   bottom: -10px;
+}
+
+.About_Picture:hover .Image_Frame2 {
+   right: 15px;
+   bottom: 25px;
+}
+
+
+.Web_Cut_Bottom {
+   width: 20%;
+   height: 342px;
+   color: white;
+   border-right: 1px solid;
+   border-image:
+      linear-gradient(to bottom,
+         rgb(255, 255, 255, 0) 30%,
+         lightblue,
+         yellow,
+         fuchsia,
+         white) 1;
+
+   right: 8%;
+   bottom: 8%;
+   position: fixed;
+}
+
+
+@keyframes glitch {
+   0% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+         0.025em 0.04em 0 gold;
+   }
+
+   15% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+         0.025em 0.04em 0 gold;
+   }
+
+   16% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+         -0.05em -0.05em 0 gold;
+   }
+
+   49% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+         -0.05em -0.05em 0 gold;
+   }
+
+   50% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+         0 -0.04em 0 gold;
+   }
+
+   99% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+         0 -0.04em 0 gold;
+   }
+
+   100% {
+      text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+         -0.04em -0.025em 0 gold;
+   }
 }

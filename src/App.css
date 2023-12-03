@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800;900&family=Lato:wght@900&family=Lora:wght@600;700&family=Nova+Square&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800;900&family=Lato:wght@900&family=Lora:wght@600;700&family=Nova+Square&family=Poppins:wght@200;600&display=swap');
 
 :root {
   --laptop-hero-header: 5rem;
@@ -8,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .App {

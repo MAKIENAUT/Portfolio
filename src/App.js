@@ -9,7 +9,7 @@ import Projects from './Components/Projects/Projects.js';
 const App = () => {
 	return (
 		<div className="App">
-			<HomeMain />
+			<HomeMain/>
 		</div>
 	);
 };
