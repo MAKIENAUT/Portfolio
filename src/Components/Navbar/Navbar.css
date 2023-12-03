@@ -1,0 +1,171 @@
+.Navbar {
+   width: 67%;
+   height: 60%;
+   display: flex;
+   margin-top: -65px;
+   align-items: center;
+   justify-content: flex-start;
+   border-left: 3px solid white;
+
+   position: relative;
+}
+
+.Links {
+   width: 100%;
+   height: 40%;
+   color: white;
+   display: flex;
+   align-items: start;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.Links>a {
+   width: 50%;
+   padding: 0 10px;
+   position: relative;
+   transition: all 0.3s;
+   text-decoration: none;
+   display: flex;
+   justify-content: end;
+   text-decoration: none;
+}
+
+.Links>a p {
+   width: 50%;
+   color: white;
+   font-size: 1.2rem;
+   transition: text-shadow 0.5s ease-in-out 0.25s;
+   font-family: 'Poppins', sans-serif;
+}
+
+.Links>a span {
+   width: 45px;
+   height: 1px;
+   display: flex;
+   transition: all 0.3s;
+   background-color: white;
+   transform: translateY(-50%);
+
+   position: absolute;
+   top: 50%;
+   left: 0;
+}
+
+.Links>a:hover span {
+   width: 75px;
+}
+
+.Links>a:hover p {
+   color: gold;
+   animation: glitch 725ms infinite;
+}
+
+.Home_Button {
+   border: none;
+   height: 100px;
+   color: white;
+   transition: all 0.25s;
+   background-color: transparent;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   position: absolute;
+   bottom: -70px;
+   left: -51px;
+}
+
+.Home_Button:hover {
+   opacity: 0.8;
+}
+
+.Home_Image {
+   height: 100%;
+   aspect-ratio: 1/1;
+   transition: all 0.25s;
+   background-size: cover;
+   background-position: center;
+   background-image: url(/public/Orb-Weaver.png);
+}
+
+.Home_Button:hover .Home_Image {
+   transition: all 0.8s;
+   filter: drop-shadow(white 0px 0px 3px) invert(100%);
+}
+
+.Home_Title {
+   height: 50%;
+   font-size: 1.5rem;
+   color: transparent;
+   background-clip: text;
+   background-size: 200px;
+   background-color: white;
+   font-family: 'Lora', serif;
+   background-repeat: no-repeat;
+   background-position: 10px 10px;
+   -webkit-background-clip: text;
+   background-image: url('/public/spider-web-corner-3.png');
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Home_Title b {
+   color: gold;
+}
+
+.Home_Title:hover {
+   background-size: 100%;
+   background-position: center;
+}
+
+.Home_Button:hover .Home_Title {
+   color: white;
+   font-size: 1.7rem;
+   transition: all 0.5s;
+   background-size: 100%;
+   background-position: 10px 10px;
+   animation: glitch 725ms infinite;
+}
+
+
+
+@keyframes glitch {
+   0% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+         0.025em 0.04em 0 gold;
+   }
+
+   15% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+         0.025em 0.04em 0 gold;
+   }
+
+   16% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+         -0.05em -0.05em 0 gold;
+   }
+
+   49% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+         -0.05em -0.05em 0 gold;
+   }
+
+   50% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+         0 -0.04em 0 gold;
+   }
+
+   99% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+         0 -0.04em 0 gold;
+   }
+
+   100% {
+      text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+         -0.04em -0.025em 0 gold;
+   }
+}

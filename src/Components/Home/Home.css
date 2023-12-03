@@ -1,0 +1,92 @@
+.HomeMain {
+   width: 85%;
+   height: 100%;
+   padding: 50px 0px;
+
+
+   display: flex;
+   align-items: start;
+   justify-content: center;
+}
+
+.Main_Left {
+   width: 40%;
+   height: 100%;
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: start;
+}
+
+.Main_Right {
+   width: 60%;
+
+}
+
+.Hero_Title {
+   width: 100%;
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Hero_Sub{
+   color: white;
+   font-size: 2.5rem;
+   transition: all 0.5s;
+   letter-spacing: 0.3rem;
+   font-family: 'Nova Square', sans-serif;
+   filter: drop-shadow(black 0px 0px 5px);   
+   
+   /* background: -webkit-linear-gradient(wheat 30%, rgb(22, 124, 175) 70%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
+}
+
+.Attention {
+   width: 100%;
+   text-decoration: none;
+
+   display: flex;
+   justify-content: center;
+}
+
+.Attention_Left,
+.Attention_Right {
+   color: white;
+   font-size: 8rem;
+   letter-spacing: 1rem;
+   transition: all 0.5s;
+   font-family: 'Lato', sans-serif;
+   filter: drop-shadow(black 0px 0px 20px);
+}
+
+.Attention_Left {
+   /* background: linear-gradient(to right, rgb(0, 128, 255), white 60%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
+}
+
+.Attention_Right {
+   /* background: linear-gradient(to left, rgb(0, 128, 255), white 90%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
+}
+
+.Attention_Main {
+   color: white;
+   cursor: pointer;
+   font-size: 8rem;
+   transition: all 0.5s;
+   letter-spacing: 0.7rem;
+   font-family: 'Cinzel', serif;
+   filter: drop-shadow(black 0px 0px 20px);   
+   transition: all 0.5s;
+   text-shadow:-2px -2px 0 cyan, 2px 2px 0 magenta;
+   /* background: linear-gradient(to right, #f3af39, #FBF5B7, #f3af39);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text; */
+}
