@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.41c59a46.css",
-    "main.js": "/Portfolio/static/js/main.9ec512bd.js",
-    "static/media/pexels-egor-kamelev-1685588.jpg": "/Portfolio/static/media/pexels-egor-kamelev-1685588.0600ee1168104175bf29.jpg",
-    "static/media/spider-web-corner-3.png": "/Portfolio/static/media/spider-web-corner-3.4ab95eddf742299c7daf.png",
-    "static/media/Orb-Weaver.png": "/Portfolio/static/media/Orb-Weaver.8b00f643b6d507308594.png",
-    "index.html": "/Portfolio/index.html",
-    "main.41c59a46.css.map": "/Portfolio/static/css/main.41c59a46.css.map",
-    "main.9ec512bd.js.map": "/Portfolio/static/js/main.9ec512bd.js.map"
+    "main.css": "/makie-portfolio/static/css/main.937dbfa5.css",
+    "main.js": "/makie-portfolio/static/js/main.9ec512bd.js",
+    "static/media/pexels-egor-kamelev-1685588.jpg": "/makie-portfolio/static/media/pexels-egor-kamelev-1685588.0600ee1168104175bf29.jpg",
+    "static/media/spider-web-corner-3.png": "/makie-portfolio/static/media/spider-web-corner-3.4ab95eddf742299c7daf.png",
+    "static/media/Orb-Weaver.png": "/makie-portfolio/static/media/Orb-Weaver.8b00f643b6d507308594.png",
+    "index.html": "/makie-portfolio/index.html",
+    "main.937dbfa5.css.map": "/makie-portfolio/static/css/main.937dbfa5.css.map",
+    "main.9ec512bd.js.map": "/makie-portfolio/static/js/main.9ec512bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.41c59a46.css",
+    "static/css/main.937dbfa5.css",
     "static/js/main.9ec512bd.js"
   ]
 }
