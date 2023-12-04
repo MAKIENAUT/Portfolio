@@ -7,19 +7,15 @@ const Navbar = ({ }) => {
          <div className="Links">
             <a href='#tldr' className="About_Button">
                <span></span>
-               <p><b>00.</b><b>TL;DR</b></p>
+               <p><b>01.</b><b>TL;DR</b></p>
             </a>
             <a href='#About_Main' className="About_Button">
                <span></span>
-               <p><b>01.</b><b>About</b></p>
+               <p><b>02.</b><b>About</b></p>
             </a>
             <a href='#Projects_Main' className="Projects_Button">
                <span></span>
-               <p><b>02.</b><b>Projects</b></p>
-            </a>
-            <a href='#Experience_Main' className="Experience_Button">
-               <span></span>
-               <p><b>03.</b><b>Experience</b></p>
+               <p><b>03.</b><b>Projects</b></p>
             </a>
             <a href='#Contacts_Main' className="Contact_Button">
                <span></span>

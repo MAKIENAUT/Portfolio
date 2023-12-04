@@ -1,3 +1,6 @@
+* {
+   box-sizing: border-box;
+}
 
 .HomeMain {
    width: 85%;
@@ -75,7 +78,6 @@
    width: calc(55% - 5px);
    box-sizing: border-box;
 
-   gap: 50px;
    display: flex;
    align-items: center;
    flex-direction: column;
@@ -90,7 +92,7 @@
    width: 100%;
    height: 340px;
    color: white;
-   border-left: 1px solid;
+   border-left: 1px solid white solid;
    box-sizing: border-box;
    border-image:
       linear-gradient(to bottom,
@@ -110,10 +112,11 @@
 .Content_Article,
 .About,
 .Projects,
-.Experience {
+.Experience,
+.Contact {
    z-index: 1;
    width: 100%;
-   padding: 20px;
+   padding: 20px 20px 70px 20px;
    filter: drop-shadow(black 0px 0px 5px);
 }
 
@@ -166,7 +169,7 @@
 
 .Heading span {
    width: 60%;
-   height: 1px;
+   height: 1px solid white;
    display: flex;
    transition: all 0.3s;
    background-color: rgb(63, 63, 63);
@@ -179,6 +182,7 @@
 
 .About_Description {
    width: 100%;
+   position: relative;
 
    gap: 30px;
    display: flex;
@@ -200,6 +204,7 @@
    transition: all 0.3s;
    text-decoration: none;
 }
+
 .About_Picture p a:hover {
    transition: all 0.3s;
    color: wheat;
@@ -225,7 +230,6 @@
    background-size: cover;
    background-image: url('/public/makie.jpg');
    z-index: 1;
-   position: relative;
    transition: transform 0.3s ease-in-out;
    /* Added transition effect */
 }
@@ -245,31 +249,285 @@
 .Image_Frame {
    border: 2px solid #fc00ff;
    right: 0;
-   bottom: 10px;
+   top: 142px;
 }
 
 .Image_Frame2 {
    border: 2px solid #00fffc;
    right: 0px;
-   bottom: 10px;
+   top: 142px;
 }
 
 .About_Picture:hover .Image_Frame {
    right: -15px;
-   bottom: -10px;
+   top: 160px;
 }
 
 .About_Picture:hover .Image_Frame2 {
    right: 15px;
-   bottom: 25px;
+   top: 125px;
 }
 
+.Technologies {
+   width: 100%;
+   padding: 10px 30px 10px 30px;
+
+   gap: 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Technology_Icons {
+   width: 100%;
+
+   gap: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.Languages {
+   width: 10%;
+   color: gold;
+   aspect-ratio: 1/1;
+
+   gap: 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Languages b {
+   font-weight: 600;
+   font-size: 0.9rem;
+}
+
+.Languages:hover .Icon {
+   filter: grayscale(80%);
+   transition: all 0.5s;
+}
+
+.Icon {
+   width: 100%;
+   aspect-ratio: 1/1;
+   transition: all 0.5s;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   filter: grayscale(0%);
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.JS {
+   background-image: url(/public/JavaScript-logo.png);
+}
+
+.HTML {
+   background-image: url(/public/HTML5_Badge_512.png);
+}
+
+.CSS {
+   background-image: url(/public/CSS3_logo.svg.png);
+}
+
+.PHP {
+   background-image: url(/public/Webysther_20160423_-_Elephpant.svg.png);
+}
+
+.React {
+   background-image: url(/public/React-icon.svg.png);
+}
+
+.Cplus2 {
+   background-image: url(/public/ISO_C++_Logo.svg.png);
+}
+
+.WordPress {
+   background-image: url(/public/WordPress_blue_logo.svg.png);
+}
+
+.Projects {
+   gap: 20px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Project_Body {
+   width: 100%;
+   color: white;
+   padding: 10px 0px;
+   border-radius: 5px;
+   background-color: rgb(25, 25, 25, 0.4);
+
+   gap: 40px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Project_Proper {
+   width: 100%;
+
+   gap: 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Project_Heading {
+   width: 100%;
+   padding: 10px;
+   position: relative;
+
+   gap: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.Project_Heading p {
+   color: gold;
+   font-weight: 500;
+   font-family: 'Poppins', sans-serif;
+
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+.Project_Heading span {
+   width: 40%;
+   height: 1px solid white;
+   display: flex;
+   transition: all 0.3s;
+   background-color: rgb(63, 63, 63);
+   transform: translateY(-50%);
+
+   position: absolute;
+   top: 50%;
+   right: 0;
+}
+
+.Project_Content {
+   width: 100%;
+   padding: 10px;
+
+   gap: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.Project_Description {
+   width: 50%;
+   height: 100%;
+
+   gap: 10px;
+   display: flex;
+   align-self: center;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.Project_Description a {
+   width: 100%;
+   color: gold;
+   text-decoration: none;
+   transition: all 0.25s;
+}
+
+.Project_Description a:hover {
+   color: white;
+   transition: all 0.25s;
+   animation: glitch 725ms infinite;
+}
+
+.Description_Heading {
+   width: 100%;
+
+   gap: 7px;
+   display: flex;
+   align-self: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Project_Date {
+   width: 100%;
+}
+
+.Project_Role {
+   width: 100%;
+   color: gold;
+}
+
+.Project_Languages {
+   width: 100%;
+   gap: 5px;
+   display: flex;
+}
+
+.Language_Chip {
+   color: lightblue;
+   padding: 3px 10px;
+   border-radius: 10px;
+   background-color: rgba(0, 102, 255, 0.2);
+}
+
+.Project_Image_1,
+.Project_Image_2,
+.Project_Image_3 {
+   width: 50%;
+   aspect-ratio: 16/9;
+   border-radius: 5px;
+   transition: all 0.2s;
+   background-size: cover;
+}
+
+.Project_Image_1:hover,
+.Project_Image_2:hover,
+.Project_Image_3:hover {
+   transition: all 0.2s;
+   box-sizing: content-box;
+   border-bottom: 3px solid fuchsia;
+}
+
+.Project_Image_1 {
+   background-image: url(/public/wma.png);
+}
+
+.Project_Image_2 {
+   background-image: url(/public/athena.png);
+}
+
+.Project_Image_3 {
+   background-image: url(/public/upang.png);
+}
+
+.Project_Narrative {
+   width: 100%;
+   text-wrap: wrap;
+   text-indent: 5%;
+   font-size: 0.9rem;
+   font-family: 'Poppins', sans-serif;
+}
 
 .Web_Cut_Bottom {
    width: 20%;
-   height: 342px;
+   height: 400px;
    color: white;
-   border-right: 1px solid;
+   border-right: 1px solid white solid;
    border-image:
       linear-gradient(to bottom,
          rgb(255, 255, 255, 0) 30%,
@@ -277,12 +535,80 @@
          yellow,
          fuchsia,
          white) 1;
-
    right: 8%;
-   bottom: 8%;
+   bottom: 10%;
    position: fixed;
 }
 
+.Contact_Body {
+   width: 100%;
+   padding-bottom: 75px;
+
+   gap: 30px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Contact_Head {
+   width: 100%;
+   color: white;
+
+   gap: 15px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.Contact_Head p {
+   width: 80%;
+   text-align: center;
+}
+
+.Contact_Head p b,
+.Contact_Head p a {
+   color: gold;
+   transition: all 0.25s;
+}
+
+.Contact_Head p a:hover {
+   color: white;
+   transition: all 0.25s;
+}
+
+.Contact_Icons {
+   width: 100%;
+   
+   gap: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.Linked_In,
+.Github,
+.Instagram,
+.Twitter {
+   width: 50px;
+   color: white;
+   font-size: 3rem;
+   aspect-ratio: 1/1;
+   border-radius: 50%;
+   text-decoration: none;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Linked_In:hover ,
+.Github:hover ,
+.Instagram:hover ,
+.Twitter:hover {
+   transition: all 0.4s;
+   animation: glitch 725ms infinite;
+}
 
 @keyframes glitch {
    0% {
