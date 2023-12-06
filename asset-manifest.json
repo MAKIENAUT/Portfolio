@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/makie-portfolio/static/css/main.915d94d0.css",
-    "main.js": "/makie-portfolio/static/js/main.44252938.js",
+    "main.js": "/makie-portfolio/static/js/main.ccbc79d5.js",
     "static/media/wma.png": "/makie-portfolio/static/media/wma.0b42bcd4642e96a6ab0d.png",
     "static/media/athena.png": "/makie-portfolio/static/media/athena.38de7608154e202cfb21.png",
     "static/media/upang.png": "/makie-portfolio/static/media/upang.bcbfeeb1e17d6d6a1343.png",
@@ -17,10 +17,10 @@
     "static/media/CSS3_logo.svg.png": "/makie-portfolio/static/media/CSS3_logo.svg.8ea58d31a9d39dd59031.png",
     "index.html": "/makie-portfolio/index.html",
     "main.915d94d0.css.map": "/makie-portfolio/static/css/main.915d94d0.css.map",
-    "main.44252938.js.map": "/makie-portfolio/static/js/main.44252938.js.map"
+    "main.ccbc79d5.js.map": "/makie-portfolio/static/js/main.ccbc79d5.js.map"
   },
   "entrypoints": [
     "static/css/main.915d94d0.css",
-    "static/js/main.44252938.js"
+    "static/js/main.ccbc79d5.js"
   ]
 }
