@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/makie-portfolio/static/css/main.b0cbb094.css",
-    "main.js": "/makie-portfolio/static/js/main.a89ef25d.js",
+    "main.css": "/makie-portfolio/static/css/main.915d94d0.css",
+    "main.js": "/makie-portfolio/static/js/main.44252938.js",
+    "static/media/wma.png": "/makie-portfolio/static/media/wma.0b42bcd4642e96a6ab0d.png",
+    "static/media/athena.png": "/makie-portfolio/static/media/athena.38de7608154e202cfb21.png",
+    "static/media/upang.png": "/makie-portfolio/static/media/upang.bcbfeeb1e17d6d6a1343.png",
+    "static/media/Webysther_20160423_-_Elephpant.svg.png": "/makie-portfolio/static/media/Webysther_20160423_-_Elephpant.svg.57268131e97f0878949f.png",
     "static/media/pexels-egor-kamelev-1685588.jpg": "/makie-portfolio/static/media/pexels-egor-kamelev-1685588.0600ee1168104175bf29.jpg",
     "static/media/makie.jpg": "/makie-portfolio/static/media/makie.c495b1d0d6fde0e34b79.jpg",
+    "static/media/ISO_C++_Logo.svg.png": "/makie-portfolio/static/media/ISO_C++_Logo.svg.64f637357bce0ccc8384.png",
+    "static/media/WordPress_blue_logo.svg.png": "/makie-portfolio/static/media/WordPress_blue_logo.svg.26392aecf0fce61d7df7.png",
+    "static/media/React-icon.svg.png": "/makie-portfolio/static/media/React-icon.svg.3e9820dc44ddde88975e.png",
     "static/media/spider-web-corner-3.png": "/makie-portfolio/static/media/spider-web-corner-3.4ab95eddf742299c7daf.png",
     "static/media/Orb-Weaver.png": "/makie-portfolio/static/media/Orb-Weaver.8b00f643b6d507308594.png",
+    "static/media/JavaScript-logo.png": "/makie-portfolio/static/media/JavaScript-logo.49af7f28ec2699f6d7f5.png",
+    "static/media/CSS3_logo.svg.png": "/makie-portfolio/static/media/CSS3_logo.svg.8ea58d31a9d39dd59031.png",
     "index.html": "/makie-portfolio/index.html",
-    "main.b0cbb094.css.map": "/makie-portfolio/static/css/main.b0cbb094.css.map",
-    "main.a89ef25d.js.map": "/makie-portfolio/static/js/main.a89ef25d.js.map"
+    "main.915d94d0.css.map": "/makie-portfolio/static/css/main.915d94d0.css.map",
+    "main.44252938.js.map": "/makie-portfolio/static/js/main.44252938.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0cbb094.css",
-    "static/js/main.a89ef25d.js"
+    "static/css/main.915d94d0.css",
+    "static/js/main.44252938.js"
   ]
 }
