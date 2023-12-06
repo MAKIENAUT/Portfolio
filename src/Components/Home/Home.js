@@ -222,7 +222,7 @@ const HomeMain = () => {
                </div>
             </div>
 
-            <div className="Contact" id='Contact_Main'>
+            <div className="Contact" id='Contacts_Main'>
                <div className="Heading">
                   <b>04.</b>
                   <h1 className='Heading_Title'>Contact</h1>
