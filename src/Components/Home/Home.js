@@ -37,9 +37,6 @@ const HomeMain = () => {
                <p className='Subtitle'>
                   I am a Full-Stack Web Developer with an acute fascinations to spiders 🕸️.
                </p>
-               <p className="Subtitle">
-                  Currently a graduating Web Dev Student determined to be one of the best.
-               </p>
                <br />
                <p className="Subtitle">
                   I aim to be the best at my chosen craft: Build website, hunt bugs, and
